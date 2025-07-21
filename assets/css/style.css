@@ -58,3 +58,22 @@ h6 {
 .hero-section .btn {
   color: #3b2f2f;
 }
+
+/* Sticky footer CSS */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
