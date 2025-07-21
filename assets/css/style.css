@@ -45,7 +45,13 @@
   color: #ffebd4;
 }
 
-.hero-section h1 {
+/* Handlee font for all headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Handlee", cursive;
 }
 
